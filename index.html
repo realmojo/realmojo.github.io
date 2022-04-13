@@ -3,27 +3,48 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Typescript Basic</title>
+    <title>JS Library</title>
     <meta name="generator" content="VuePress 1.9.7">
-    
-    <meta name="description" content="typescript basic lecture">
-    <meta name="theme-color" content="#3178c6">
+    <link rel="icon" href="/assets/favicons/favicon.ico">
+    <link rel="icon" type="image/png" sizes="57x57" href="/assets/favicons/apple-icon-57x57.png">
+    <link rel="icon" type="image/png" sizes="60x60" href="/assets/favicons/apple-icon-60x60.png">
+    <link rel="icon" type="image/png" sizes="72x72" href="/assets/favicons/apple-icon-72x72.png">
+    <link rel="icon" type="image/png" sizes="76x76" href="/assets/favicons/apple-icon-76x76.png">
+    <link rel="icon" type="image/png" sizes="114x114" href="/assets/favicons/apple-icon-114x114.png">
+    <link rel="icon" type="image/png" sizes="120x120" href="/assets/favicons/apple-icon-120x120.png">
+    <link rel="icon" type="image/png" sizes="144x144" href="/assets/favicons/apple-icon-144x144.png">
+    <link rel="icon" type="image/png" sizes="152x152" href="/assets/favicons/apple-icon-152x152.png">
+    <link rel="icon" type="image/png" sizes="180x180" href="/assets/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicons/favicon-96x96.png">
+    <meta name="description" content="Javascript 도서관">
+    <meta name="theme-color" content="#000">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     
-    <link rel="preload" href="/assets/css/0.styles.264581ff.css" as="style"><link rel="preload" href="/assets/js/app.db6782a0.js" as="script"><link rel="preload" href="/assets/js/2.2d41b95a.js" as="script"><link rel="preload" href="/assets/js/23.d38d21aa.js" as="script"><link rel="prefetch" href="/assets/js/10.94498411.js"><link rel="prefetch" href="/assets/js/11.870e8356.js"><link rel="prefetch" href="/assets/js/12.ad8b0637.js"><link rel="prefetch" href="/assets/js/13.f0142b7e.js"><link rel="prefetch" href="/assets/js/14.76c49587.js"><link rel="prefetch" href="/assets/js/15.4365b85c.js"><link rel="prefetch" href="/assets/js/16.8c332ef2.js"><link rel="prefetch" href="/assets/js/17.e1121951.js"><link rel="prefetch" href="/assets/js/18.7ec0dfc4.js"><link rel="prefetch" href="/assets/js/19.8df96bb7.js"><link rel="prefetch" href="/assets/js/20.fba3e66f.js"><link rel="prefetch" href="/assets/js/21.213a1e70.js"><link rel="prefetch" href="/assets/js/22.903dca4c.js"><link rel="prefetch" href="/assets/js/3.4162f40a.js"><link rel="prefetch" href="/assets/js/4.ab7decdf.js"><link rel="prefetch" href="/assets/js/5.e78accf8.js"><link rel="prefetch" href="/assets/js/6.85529650.js"><link rel="prefetch" href="/assets/js/7.c23ce467.js"><link rel="prefetch" href="/assets/js/8.52f7052f.js"><link rel="prefetch" href="/assets/js/9.1e3f44e1.js">
-    <link rel="stylesheet" href="/assets/css/0.styles.264581ff.css">
+    <link rel="preload" href="/assets/css/0.styles.53ea0b49.css" as="style"><link rel="preload" href="/assets/js/app.5b161001.js" as="script"><link rel="preload" href="/assets/js/2.b1f5f5eb.js" as="script"><link rel="preload" href="/assets/js/17.f2074e17.js" as="script"><link rel="prefetch" href="/assets/js/10.7dc30267.js"><link rel="prefetch" href="/assets/js/11.713d0b6f.js"><link rel="prefetch" href="/assets/js/12.9b7e3244.js"><link rel="prefetch" href="/assets/js/13.ba60d31d.js"><link rel="prefetch" href="/assets/js/14.df7fb157.js"><link rel="prefetch" href="/assets/js/15.4af56c45.js"><link rel="prefetch" href="/assets/js/16.73dc854e.js"><link rel="prefetch" href="/assets/js/18.4b2ca57f.js"><link rel="prefetch" href="/assets/js/19.d96a177a.js"><link rel="prefetch" href="/assets/js/20.93cc3dbe.js"><link rel="prefetch" href="/assets/js/21.c14c9d4f.js"><link rel="prefetch" href="/assets/js/22.d498c1d6.js"><link rel="prefetch" href="/assets/js/23.73f43f93.js"><link rel="prefetch" href="/assets/js/24.290182f3.js"><link rel="prefetch" href="/assets/js/25.26fe38c0.js"><link rel="prefetch" href="/assets/js/26.6e06ffe2.js"><link rel="prefetch" href="/assets/js/27.5e6df2bf.js"><link rel="prefetch" href="/assets/js/28.535190ee.js"><link rel="prefetch" href="/assets/js/29.e0d6d067.js"><link rel="prefetch" href="/assets/js/3.0f5a70bd.js"><link rel="prefetch" href="/assets/js/30.06eaa934.js"><link rel="prefetch" href="/assets/js/31.f4d0c7db.js"><link rel="prefetch" href="/assets/js/32.916e0733.js"><link rel="prefetch" href="/assets/js/33.9c04863d.js"><link rel="prefetch" href="/assets/js/34.bb132922.js"><link rel="prefetch" href="/assets/js/35.0c107e73.js"><link rel="prefetch" href="/assets/js/36.ed0ceb4d.js"><link rel="prefetch" href="/assets/js/37.0f43f270.js"><link rel="prefetch" href="/assets/js/38.c58d5f32.js"><link rel="prefetch" href="/assets/js/39.04eb7392.js"><link rel="prefetch" href="/assets/js/4.f1edb70e.js"><link rel="prefetch" href="/assets/js/40.8eeca570.js"><link rel="prefetch" href="/assets/js/41.d3c6df32.js"><link rel="prefetch" href="/assets/js/42.be5bb5ff.js"><link rel="prefetch" href="/assets/js/43.895f1279.js"><link rel="prefetch" href="/assets/js/44.16605d89.js"><link rel="prefetch" href="/assets/js/45.a4979bf2.js"><link rel="prefetch" href="/assets/js/46.45895729.js"><link rel="prefetch" href="/assets/js/47.36cd259c.js"><link rel="prefetch" href="/assets/js/48.0a200c04.js"><link rel="prefetch" href="/assets/js/49.33e90c3a.js"><link rel="prefetch" href="/assets/js/5.7a9589e9.js"><link rel="prefetch" href="/assets/js/50.d34ef8ec.js"><link rel="prefetch" href="/assets/js/51.53037cf8.js"><link rel="prefetch" href="/assets/js/52.9a7fd364.js"><link rel="prefetch" href="/assets/js/53.e2fb53ad.js"><link rel="prefetch" href="/assets/js/54.7318d6c2.js"><link rel="prefetch" href="/assets/js/55.9f943b5d.js"><link rel="prefetch" href="/assets/js/56.20d8cd14.js"><link rel="prefetch" href="/assets/js/57.2ffbc922.js"><link rel="prefetch" href="/assets/js/58.fd120a15.js"><link rel="prefetch" href="/assets/js/59.3c7e08c5.js"><link rel="prefetch" href="/assets/js/6.e47100f7.js"><link rel="prefetch" href="/assets/js/60.957daece.js"><link rel="prefetch" href="/assets/js/61.8dc7dd6d.js"><link rel="prefetch" href="/assets/js/62.4ab70cea.js"><link rel="prefetch" href="/assets/js/63.696d929c.js"><link rel="prefetch" href="/assets/js/64.4f6d870c.js"><link rel="prefetch" href="/assets/js/65.b646b216.js"><link rel="prefetch" href="/assets/js/66.72c78afd.js"><link rel="prefetch" href="/assets/js/67.6523eae5.js"><link rel="prefetch" href="/assets/js/7.ef88efbb.js"><link rel="prefetch" href="/assets/js/8.3aecdf80.js"><link rel="prefetch" href="/assets/js/9.bbd73f15.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.53ea0b49.css">
   </head>
   <body>
-    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" aria-current="page" class="home-link router-link-exact-active router-link-active"><!----> <span class="site-name">Typescript Basic</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <!----> </aside> <main aria-labelledby="main-title" class="home"><header class="hero"><img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FrztKP%2FbtrfMN0brqn%2FAa4oErXpXaIYG1fO1D2E90%2Fimg.png" alt="hero"> <h1 id="main-title">
-      Typescript Basic
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" aria-current="page" class="home-link router-link-exact-active router-link-active"><!----> <span class="site-name">JS Library</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/javascript/" class="nav-link">
+  자바스크립트
+</a></div><div class="nav-item"><a href="/typescript/" class="nav-link">
+  타입스크립트
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/javascript/" class="nav-link">
+  자바스크립트
+</a></div><div class="nav-item"><a href="/typescript/" class="nav-link">
+  타입스크립트
+</a></div> <!----></nav>  <!----> </aside> <main aria-labelledby="main-title" class="home"><header class="hero"><img src="https://blog.kakaocdn.net/dn/bD1JjU/btryBscXcq8/ERAlu89DrZj56jQAFCdrNk/img.png" alt="hero"> <h1 id="main-title">
+      JS Library
     </h1> <p class="description">
-      타입스크립트 기초 강의
-    </p> <p class="action"><a href="/guide/" class="nav-link action-button">
-  Quick Start →
+      자바스크립트 도서관
+    </p> <p class="action"><a href="/javascript/" class="nav-link action-button">
+  Start →
 </a></p></header> <!----> <div class="theme-default-content custom content__default"></div> <div class="footer">
     Made by realmojo
   </div></main></div><div class="global-ui"></div></div>
-    <script src="/assets/js/app.db6782a0.js" defer></script><script src="/assets/js/2.2d41b95a.js" defer></script><script src="/assets/js/23.d38d21aa.js" defer></script>
+    <script src="/assets/js/app.5b161001.js" defer></script><script src="/assets/js/2.b1f5f5eb.js" defer></script><script src="/assets/js/17.f2074e17.js" defer></script>
   </body>
 </html>

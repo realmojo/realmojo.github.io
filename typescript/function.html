@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>함수 | JS Library</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/assets/favicons/favicon.ico">
+    <link rel="icon" type="image/png" sizes="57x57" href="/assets/favicons/apple-icon-57x57.png">
+    <link rel="icon" type="image/png" sizes="60x60" href="/assets/favicons/apple-icon-60x60.png">
+    <link rel="icon" type="image/png" sizes="72x72" href="/assets/favicons/apple-icon-72x72.png">
+    <link rel="icon" type="image/png" sizes="76x76" href="/assets/favicons/apple-icon-76x76.png">
+    <link rel="icon" type="image/png" sizes="114x114" href="/assets/favicons/apple-icon-114x114.png">
+    <link rel="icon" type="image/png" sizes="120x120" href="/assets/favicons/apple-icon-120x120.png">
+    <link rel="icon" type="image/png" sizes="144x144" href="/assets/favicons/apple-icon-144x144.png">
+    <link rel="icon" type="image/png" sizes="152x152" href="/assets/favicons/apple-icon-152x152.png">
+    <link rel="icon" type="image/png" sizes="180x180" href="/assets/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicons/favicon-96x96.png">
+    <meta name="description" content="Javascript 도서관">
+    <meta name="theme-color" content="#000">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <link rel="preload" href="/assets/css/0.styles.53ea0b49.css" as="style"><link rel="preload" href="/assets/js/app.5b161001.js" as="script"><link rel="preload" href="/assets/js/2.b1f5f5eb.js" as="script"><link rel="preload" href="/assets/js/59.3c7e08c5.js" as="script"><link rel="prefetch" href="/assets/js/10.7dc30267.js"><link rel="prefetch" href="/assets/js/11.713d0b6f.js"><link rel="prefetch" href="/assets/js/12.9b7e3244.js"><link rel="prefetch" href="/assets/js/13.ba60d31d.js"><link rel="prefetch" href="/assets/js/14.df7fb157.js"><link rel="prefetch" href="/assets/js/15.4af56c45.js"><link rel="prefetch" href="/assets/js/16.73dc854e.js"><link rel="prefetch" href="/assets/js/17.f2074e17.js"><link rel="prefetch" href="/assets/js/18.4b2ca57f.js"><link rel="prefetch" href="/assets/js/19.d96a177a.js"><link rel="prefetch" href="/assets/js/20.93cc3dbe.js"><link rel="prefetch" href="/assets/js/21.c14c9d4f.js"><link rel="prefetch" href="/assets/js/22.d498c1d6.js"><link rel="prefetch" href="/assets/js/23.73f43f93.js"><link rel="prefetch" href="/assets/js/24.290182f3.js"><link rel="prefetch" href="/assets/js/25.26fe38c0.js"><link rel="prefetch" href="/assets/js/26.6e06ffe2.js"><link rel="prefetch" href="/assets/js/27.5e6df2bf.js"><link rel="prefetch" href="/assets/js/28.535190ee.js"><link rel="prefetch" href="/assets/js/29.e0d6d067.js"><link rel="prefetch" href="/assets/js/3.0f5a70bd.js"><link rel="prefetch" href="/assets/js/30.06eaa934.js"><link rel="prefetch" href="/assets/js/31.f4d0c7db.js"><link rel="prefetch" href="/assets/js/32.916e0733.js"><link rel="prefetch" href="/assets/js/33.9c04863d.js"><link rel="prefetch" href="/assets/js/34.bb132922.js"><link rel="prefetch" href="/assets/js/35.0c107e73.js"><link rel="prefetch" href="/assets/js/36.ed0ceb4d.js"><link rel="prefetch" href="/assets/js/37.0f43f270.js"><link rel="prefetch" href="/assets/js/38.c58d5f32.js"><link rel="prefetch" href="/assets/js/39.04eb7392.js"><link rel="prefetch" href="/assets/js/4.f1edb70e.js"><link rel="prefetch" href="/assets/js/40.8eeca570.js"><link rel="prefetch" href="/assets/js/41.d3c6df32.js"><link rel="prefetch" href="/assets/js/42.be5bb5ff.js"><link rel="prefetch" href="/assets/js/43.895f1279.js"><link rel="prefetch" href="/assets/js/44.16605d89.js"><link rel="prefetch" href="/assets/js/45.a4979bf2.js"><link rel="prefetch" href="/assets/js/46.45895729.js"><link rel="prefetch" href="/assets/js/47.36cd259c.js"><link rel="prefetch" href="/assets/js/48.0a200c04.js"><link rel="prefetch" href="/assets/js/49.33e90c3a.js"><link rel="prefetch" href="/assets/js/5.7a9589e9.js"><link rel="prefetch" href="/assets/js/50.d34ef8ec.js"><link rel="prefetch" href="/assets/js/51.53037cf8.js"><link rel="prefetch" href="/assets/js/52.9a7fd364.js"><link rel="prefetch" href="/assets/js/53.e2fb53ad.js"><link rel="prefetch" href="/assets/js/54.7318d6c2.js"><link rel="prefetch" href="/assets/js/55.9f943b5d.js"><link rel="prefetch" href="/assets/js/56.20d8cd14.js"><link rel="prefetch" href="/assets/js/57.2ffbc922.js"><link rel="prefetch" href="/assets/js/58.fd120a15.js"><link rel="prefetch" href="/assets/js/6.e47100f7.js"><link rel="prefetch" href="/assets/js/60.957daece.js"><link rel="prefetch" href="/assets/js/61.8dc7dd6d.js"><link rel="prefetch" href="/assets/js/62.4ab70cea.js"><link rel="prefetch" href="/assets/js/63.696d929c.js"><link rel="prefetch" href="/assets/js/64.4f6d870c.js"><link rel="prefetch" href="/assets/js/65.b646b216.js"><link rel="prefetch" href="/assets/js/66.72c78afd.js"><link rel="prefetch" href="/assets/js/67.6523eae5.js"><link rel="prefetch" href="/assets/js/7.ef88efbb.js"><link rel="prefetch" href="/assets/js/8.3aecdf80.js"><link rel="prefetch" href="/assets/js/9.bbd73f15.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.53ea0b49.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">JS Library</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/javascript/" class="nav-link">
+  자바스크립트
+</a></div><div class="nav-item"><a href="/typescript/" class="nav-link router-link-active">
+  타입스크립트
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/javascript/" class="nav-link">
+  자바스크립트
+</a></div><div class="nav-item"><a href="/typescript/" class="nav-link router-link-active">
+  타입스크립트
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>타입스크립트</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/typescript/" aria-current="page" class="sidebar-link">타입스크립트란?</a></li><li><a href="/typescript/why-typescript.html" class="sidebar-link">타입스크립트 강력추천 하는 이유</a></li><li><a href="/typescript/transpile-vs-compile.html" class="sidebar-link">Transpile Vs Compile</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>기본개념</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/typescript/kind.html" class="sidebar-link">기본 타입의 종류</a></li><li><a href="/typescript/function.html" aria-current="page" class="active sidebar-link">함수</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/typescript/function.html#함수-선언" class="sidebar-link">함수 선언</a></li><li class="sidebar-sub-header"><a href="/typescript/function.html#리턴-값이-없는-경우" class="sidebar-link">리턴 값이 없는 경우</a></li><li class="sidebar-sub-header"><a href="/typescript/function.html#매개변수-옵셔널" class="sidebar-link">매개변수 옵셔널</a></li></ul></li><li><a href="/typescript/interface.html" class="sidebar-link">인터페이스</a></li><li><a href="/typescript/type-alias.html" class="sidebar-link">타입 별칭</a></li><li><a href="/typescript/type-inference.html" class="sidebar-link">타입 추론</a></li><li><a href="/typescript/unions-and-intersections.html" class="sidebar-link">유니언, 교차 타입</a></li><li><a href="/typescript/class.html" class="sidebar-link">클래스</a></li><li><a href="/typescript/generic.html" class="sidebar-link">제네릭</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="함수"><a href="#함수" class="header-anchor">#</a> 함수</h1> <p>타입스크립트에서 함수를 나타내는 방법은 여러가지 이며 기존 자바스크립트와 달라진점은 2가지 입니다.</p> <ul><li>인자값에 타입을 정의</li> <li>리턴값에 타입을 정의</li></ul> <p>타입을 정의하는 것이기 때문에 <code>number</code>, <code>string</code>, <code>void</code>, <code>number[]</code> 이외의 <code>type</code>, <code>interface</code>로 정의된 타입들도 선언이 가능합니다.</p> <h2 id="함수-선언"><a href="#함수-선언" class="header-anchor">#</a> 함수 선언</h2> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// 추론된 리턴</span>
+<span class="token keyword">function</span> <span class="token function">sum</span><span class="token punctuation">(</span><span class="token parameter"><span class="token literal-property property">a</span><span class="token operator">:</span> number<span class="token punctuation">,</span> <span class="token literal-property property">b</span><span class="token operator">:</span> number</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> a <span class="token operator">+</span> b<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 정의된 리턴</span>
+<span class="token keyword">function</span> <span class="token function">sum</span><span class="token punctuation">(</span><span class="token parameter"><span class="token literal-property property">a</span><span class="token operator">:</span> number<span class="token punctuation">,</span> <span class="token literal-property property">b</span><span class="token operator">:</span> number</span><span class="token punctuation">)</span><span class="token operator">:</span> number <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> a <span class="token operator">+</span> b<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p><code>interface</code> 타입을 인자값으로 정의</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">interface</span> <span class="token class-name">User</span> <span class="token punctuation">{</span>
+  <span class="token literal-property property">name</span><span class="token operator">:</span> string<span class="token punctuation">;</span>
+  <span class="token literal-property property">age</span><span class="token operator">:</span> number<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">function</span> <span class="token function">getUsername</span><span class="token punctuation">(</span><span class="token parameter"><span class="token literal-property property">user</span><span class="token operator">:</span> User</span><span class="token punctuation">)</span><span class="token operator">:</span> string <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> user<span class="token punctuation">.</span>name<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p><code>interface</code> 타입을 리턴값으로 정의</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">interface</span> <span class="token class-name">User</span> <span class="token punctuation">{</span>
+  <span class="token literal-property property">name</span><span class="token operator">:</span> string<span class="token punctuation">;</span>
+  <span class="token literal-property property">age</span><span class="token operator">:</span> number<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">function</span> <span class="token function">getUser</span><span class="token punctuation">(</span><span class="token parameter"><span class="token literal-property property">user</span><span class="token operator">:</span> User</span><span class="token punctuation">)</span><span class="token operator">:</span> User <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> user<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="리턴-값이-없는-경우"><a href="#리턴-값이-없는-경우" class="header-anchor">#</a> 리턴 값이 없는 경우</h2> <p>리턴 값이 없을 경우에는 <code>void</code>를 선언해주면 됩니다.</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">function</span> <span class="token function">logMessage</span><span class="token punctuation">(</span><span class="token parameter"><span class="token literal-property property">text</span><span class="token operator">:</span> string</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token keyword">void</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>text<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="매개변수-옵셔널"><a href="#매개변수-옵셔널" class="header-anchor">#</a> 매개변수 옵셔널</h2> <p>인자값을 선택적으로 받고 싶을 때 <code>?</code>를 변수 우측에 적어줍니다.</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">function</span> <span class="token function">logMessage</span><span class="token punctuation">(</span><span class="token parameter">text<span class="token operator">?</span><span class="token operator">:</span> string</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token keyword">void</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">logMessage: </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>text<span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/typescript/kind.html" class="prev">
+        기본 타입의 종류
+      </a></span> <span class="next"><a href="/typescript/interface.html">
+        인터페이스
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.5b161001.js" defer></script><script src="/assets/js/2.b1f5f5eb.js" defer></script><script src="/assets/js/59.3c7e08c5.js" defer></script>
+  </body>
+</html>
